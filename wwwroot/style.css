@@ -1,3 +1,40 @@
-.nav-bg{
-    background-color: pink;
+/* Estilo geral */ 
+body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; 
+     background-color: #fcdbea; 
 }
+
+header {
+    background: linear-gradient(90deg, #ffa9d4, #b30054); color: white; padding: 60px 0;
+}
+
+  header h1 { font-size: 3rem; font-weight: bold;
+  }
+
+  header p { 
+    font-size: 1.25rem; 
+}
+ 
+section { 
+    padding-top: 30px; padding-bottom: 30px; 
+} 
+section h2 { margin-bottom: 20px; font-weight: 600; 
+}
+ /* Lista de informações */ 
+ .list-group-item {
+     background-color: #ffffff; border: 1px solid #dee2e6;
+     } 
+     
+     /* Botões de redes sociais */ 
+     a.btn { 
+        transition: all 0.3s ease-in-out; 
+    }
+    
+    a.btn:hover {
+         transform: scale(1.05); 
+        }
+        
+        /* Rodapé */ 
+        footer { 
+            background-color: #212529; color: white; 
+        }
